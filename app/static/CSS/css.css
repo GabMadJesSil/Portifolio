@@ -1,0 +1,150 @@
+body{
+    background-color: #00ffea;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Young Serif', serif;
+    color: yellow;
+}
+
+header {
+    background-color: rgb(171, 18, 179);
+    text-align: center;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.big-image {
+    display: flex;
+    height: 20%;
+    width: 20%;
+    
+}
+
+.biografia{
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_cila {
+    border: 5px solid salmon;
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    margin: 1% auto auto 34%;
+}
+
+.img_cila:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+span{
+    text-align: center;
+    color: black;
+}
+
+.desenho {
+    width: 40%;
+    height: auto;
+}
+
+.small-images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    color: black;
+}
+
+.div_obras {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.tigre_leao {
+    width: 70%;
+    height: auto;
+    border: 5px solid  salmon;    
+}
+.tigre_leao:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.gato{
+    width: 50%;
+    height: auto;
+    border-color:  salmon;
+}
+.gato:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.mulher {
+    width: 45%;
+    height: auto;
+    border-color: #ff99cc;
+}
+.mulher:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.zumbi_palmares {
+    width: 45%;
+    height: auto;
+    border-color: #99ccff;
+}
+.zumbi_palmares:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.cavalo {
+    width: 48%;
+    height: auto;
+    border-color: #ff99cc;
+}
+.cavalo:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.pink-border {
+    text-align: center;
+}
+
+.blue-border {
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(171, 18, 179);
+    text-align: center;
+    padding: 2% 0% 1% 0%;
+    margin-top: 1%;
+}
+
+footer h1 {
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: left;
+    margin-left: 1%;
+}
+
+h2{
+    text-decoration: underline;
+}
